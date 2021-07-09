@@ -1,0 +1,327 @@
+body{
+    background-color:rgb(237,242,247);
+}
+
+#sidenav{
+  background-color: #fff;
+  border-right: 1px solid #e2e2e2;
+  width: 15%;
+  height: 100%;
+  position: fixed;      
+  box-shadow: 0 0 5px #e2e2e2;  
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+#sidenav a{
+  display: block;
+  text-decoration: none;
+  color:rgb(74, 85, 104);
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 0.8em 0 0.8em 0.5em;
+}
+
+#sidenav a:hover{
+  background-color: rgb(237,242,247);
+  color: rgb(49, 130, 206);
+  border-radius: 8px;
+}
+
+
+#sidenav h4{
+  font-family: 'Inter', sans-serif;
+  font-weight: 800;    
+  color: rgb(45, 55, 72);
+  margin: 1em 0 1.5em 0.5em; 
+}
+
+#sidenav .icon, #top-toolbar .icon{       
+  width: 1.5rem;
+  height: 1.5rem;
+  color: rgb(164, 169, 179);
+  float:left;
+  margin-right: 1em;
+}
+
+#sidenav a:hover .icon{
+  color: rgb(49, 130, 206);
+}
+
+#sidenav-cta{
+  height: 16%;    
+  margin-top: 3em; 
+  background-color: rgb(254, 235, 200); 
+  border-radius: 8px;
+  padding-left: 0;
+  padding-right: 0;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+}
+
+#sidenav-cta-inner {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#sidenav-cta p{
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 1.1rem;
+  color: rgb(45, 55, 72);  
+}
+
+#sidenav-cta button, #dashboard button, #dashboard-inner button{
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  color: #fff;
+  background-color: rgb(66, 153, 225);
+  border-radius: 8px;
+  padding: 0.5em 1em 0.5em 1em;
+}  
+
+#main-content{
+  width: 85%;
+  float:right; 
+}
+
+#top-toolbar{
+  height:15%;     
+  background-color: #fff;             
+  padding: 1em 2em 1em 2em;  
+  box-shadow: -1px 1px 5px 0px #e2e2e2;     
+}
+
+#top-toolbar input{
+  line-height: 2em;
+  border-radius: 8px;
+  width: 60%;      
+  border: none;
+  background-color: rgb(237,242,247);  
+  padding: 0.3em 1em 0.3em 1em;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;        
+}    
+
+#top-toolbar p{
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  border-radius: 50px;
+  background-color: rgb(190, 227, 248);  
+  float: right;  
+  margin-left: 0.5em;  
+  margin-top: 0.2em;
+  color: rgb(49, 130, 206);  
+  padding: 0.4em;
+}
+
+#top-toolbar  #menu-right{
+  float: right;        
+}
+
+#top-toolbar  #menu-right .icon{
+  margin-top: 0.5em;
+}
+
+#content-inner{
+  margin-left:auto;
+  margin-right:auto;   
+  padding-top: 2em;    
+}
+
+.main-alert{
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 1rem;  
+  border: none;
+  padding: 1em 2em 1em 2em;
+  background-color: rgb(254, 215, 215);
+  color: rgb(204, 48, 48);
+}
+
+.main-alert .close{
+  padding: 0;
+  position: static;
+}
+
+.main-alert .close:focus{
+  outline:none;
+}
+
+#dashboard{
+  margin-top: 1.5em;
+}
+
+#dashboard .icon{        
+  float: left;    
+  color:#fff;
+  height: 1.5rem;
+  width: 1.5rem;        
+}
+
+#dashboard .btn-text{
+  padding-left: 0.5em;
+}
+
+#dashboard button{
+  float: right;
+  margin-top: -3em;
+  margin-bottom: 1em;
+}
+
+#dashboard p, #invoices p{
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 1.3rem;
+  color: rgb(45, 55, 72);         
+}
+
+#dashboard-inner h4{
+  font-family: 'Inter', sans-serif;
+  font-weight: 800;    
+  color: rgb(45, 55, 72);
+}
+
+#dashboard-inner{
+  background-color: rgb(254, 235, 200);
+  padding: 2em 0 5em 2em;
+  margin-top: 1.5em;  
+  border-radius: 8px;      
+  box-shadow: 0px 0px 5px #d2d2d2;
+}
+
+#dashboard-inner p{
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;  
+  color: rgb(45, 55, 72);
+  width: 50%;        
+}
+
+#dashboard-inner button{
+  float:left;
+  margin-top: 0;       
+}
+
+#dashboard-inner .icon{
+  float: right;
+}
+
+#dashboard-inner .btn-text{
+  padding-right: 0.5em;
+  padding-left: 0;
+}
+
+#dashboard-inner img{
+  float: right;
+  height: 25%;
+  width: 25%;
+  margin-top: -7em;
+  margin-right: 9em;
+}
+
+#invoices{
+  margin-top: 2.5em;
+}
+
+#invoices a{
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 1rem;  
+  color: rgb(66, 153, 225);
+  text-decoration: none;
+  float: right;
+  margin-top: -3em;
+}
+
+#invoices table{
+  margin-top: 1em; 
+  background-color: #fff; 
+  border-radius: 8px;  
+  border: 1px solid #e2e2e2; 
+  border-spacing: 0;     
+  border-collapse: separate;  
+  box-shadow: 0px 1px 3px #d2d2d2;                
+}
+
+#invoices table th{
+  border-top: none;
+  border-bottom: none;
+  padding: 1em 1.5em;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 0.8rem;  
+  color: rgb(160, 174, 192);
+}
+
+#invoices table td{
+  padding: 1.2em 1.5em;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;  
+  color: rgb(45, 55, 72);
+}
+
+@media (max-width:1440px) {
+  #sidenav h4, #dashboard-inner h4{
+    font-size: 1.2rem;
+  }
+
+  #sidenav .icon, #top-toolbar .icon {
+    width: 1.4rem;
+    height: 1.4rem;
+  }
+  
+  #sidenav-cta {
+    height: 20%;
+  }
+
+  #sidenav-cta p {
+    font-size: 1rem;
+  }         
+
+  #sidenav a, #sidenav-cta button, #dashboard button, #dashboard-inner button,  #top-toolbar input, .main-alert,
+  #dashboard-inner p, #invoices table td, #invoices a, #top-toolbar p{
+    font-size: 0.9rem;
+  }
+  
+  #dashboard p, #invoices p{
+    font-size: 1rem;
+  }
+
+
+  #sidenav-cta button, #dashboard button, #dashboard-inner button {
+    padding: 0.3em 0.6em 0.3em 0.6em;
+  }
+}
+
+@media(max-width: 1024px){
+  #sidenav-cta button{
+    font-size: 0.7rem;
+  }
+
+  #sidenav-cta p {
+   font-size: 0.8rem;
+   padding-left: 0.6em;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+      max-width: 700px;
+  }
+}
+
+@media (min-width: 1200px){
+  .container {
+      max-width: 1000px;
+  }
+}
