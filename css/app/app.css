@@ -303,6 +303,12 @@ body{
   }
 }
 
+@media (max-width: 1920px){
+  #sidenav-cta{
+    height: 20%;
+  }
+}
+
 @media(max-width: 1024px){
   #sidenav-cta button{
     font-size: 0.7rem;
@@ -316,12 +322,12 @@ body{
 
 @media (min-width: 992px) {
   .container {
-      max-width: 700px;
+      max-width: 43.75rem;
   }
 }
 
 @media (min-width: 1200px){
   .container {
-      max-width: 1000px;
+      max-width: 6.25rem;
   }
 }
