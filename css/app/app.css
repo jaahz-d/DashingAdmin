@@ -303,13 +303,25 @@ body{
   }
 }
 
-@media (max-width: 1920px){
+@media screen and (max-width: 1920px){
   #sidenav-cta{
     height: 20%;
   }
 }
 
-@media(max-width: 1024px){
+@media screen and (max-width: 1440px){
+  .container{
+    width: 80%!important;
+  }
+}
+
+@media screen and (max-width: 1366px){
+  .container{
+    width: 80%!important;
+  }
+}
+
+@media screen and (max-width: 1024px){
   #sidenav-cta button{
     font-size: 0.7rem;
   }
@@ -317,17 +329,5 @@ body{
   #sidenav-cta p {
    font-size: 0.8rem;
    padding-left: 0.6em;
-  }
-}
-
-@media (min-width: 992px) {
-  .container {
-      max-width: 43.75rem;
-  }
-}
-
-@media (min-width: 1200px){
-  .container {
-      max-width: 6.25rem;
   }
 }
